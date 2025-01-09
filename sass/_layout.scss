@@ -1,0 +1,10 @@
+@use "base" as *;
+
+.container {
+  height: 100vh;
+  max-width: 100%;
+  margin: 0;
+  background-color: $background-color;
+  font-size: $default-font-size;
+  display: flex;
+}
